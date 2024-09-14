@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3030/auth/login", {
+      const response = await axios.post("https://hmdhmdndani-production.up.railway.app/auth/login", {
         username,
         password,
       });
